@@ -47,12 +47,12 @@ class Cell:
 
         return '\n'.join(chunks)
 
-first = Cell(3)
-second = Cell(2)
-huge = Cell(12)
+first = Cell(5)
+second = Cell(7)
+huge = Cell(18)
 
 print(first + second)
 print(first - second)
 print(first * second)
 print(first / second)
-print(Cell.make_order(huge, 5))
+print(Cell.make_order(huge, 12))
